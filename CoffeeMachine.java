@@ -74,7 +74,7 @@ public class CoffeeMachine {
         if(beans < 12)
             return 1;
         if(milk < 75 )
-            return 3;
+            return 2;
         return 4;
     }
     public static void coffeeType(String selectedKey){
